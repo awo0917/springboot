@@ -1,0 +1,12 @@
+#log4j2 日志文件
+logging:
+  config: classpath:log4j2-test.xml
+
+#数据源信息
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:8066/privilege_platform?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password:
