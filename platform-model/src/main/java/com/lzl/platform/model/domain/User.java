@@ -21,5 +21,8 @@ public class User implements Serializable {
 
     private Long updated;
 
-
+    public User(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
+    }
 }
