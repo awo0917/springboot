@@ -35,7 +35,7 @@
             </exclusions>
         </dependency>
         <!-- spring boot- mybatis 分页工具-->
-        <dependency>
+        <!--<dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>${pagehelper.version}</version>
@@ -45,7 +45,7 @@
                     <groupId>org.springframework.boot</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
+        </dependency>-->
 
         <!--数据源-->
         <dependency>

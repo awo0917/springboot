@@ -32,6 +32,7 @@ mybatis:
     cache-enabled: true
     lazy-loading-enabled: true
     aggressive-lazy-loading: true
+    map-underscore-to-camel-case: true
 mapper:
   mappers: com.lzl.platform.dao.mapper
   style: normal
